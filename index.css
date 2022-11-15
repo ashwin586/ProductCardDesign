@@ -1,0 +1,100 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("vecteezy_banner-template-background-geometri-for-background_12921076.jpg");
+    background-size: cover;
+}
+
+
+
+.wrapper {
+    background-color: #ffefd8 ;
+    width: 90vw;
+    height: 80vh;
+    margin: 70px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 10px; 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+img {
+   width: 275px;
+   height: 450px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+
+}
+
+p {
+    font-family:'CustomFont', Montserrat;
+    margin-left: 55%;
+    margin-top: -80%;
+    color: #696969;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1 {
+    margin-left: 55%;
+    font-family: 'CustomFont', Montserrat;
+    font-weight: 500, 700;
+}
+
+#para {
+    margin-left: 55%;
+    margin-top: 5%;
+    color: #696969;
+    
+}
+
+#price {
+    color: #18A558;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+}
+
+#old-price {
+    margin-left: 80%;
+    margin-top: -5%;
+}
+
+button {
+    width: 215px;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 55%;
+    background-color: #18A558;
+    border-radius: 8px;
+    border: 1px solid #18A558;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: auto;
+}
+
+svg {
+    padding: auto;
+    margin-right: 12px;
+}
