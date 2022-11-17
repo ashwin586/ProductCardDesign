@@ -65,12 +65,23 @@ h1 {
     
 }
 
-#price {
+p.price {
+    display: flex;
+    margin-top:20px;
     color: #18A558;
-    margin-top: 30px;
     font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom:20px;
 }
 
+p.price .sale {
+    color:hsl(228, 12%, 48%);
+    font-size:14px;
+    margin-left: 10px;
+    text-decoration:line-through;
+}
 
 button {
     width: 215px;
